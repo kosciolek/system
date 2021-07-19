@@ -1,0 +1,22 @@
+{
+  "exclude": ["types", "esm"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": ["DOM", "ESNext"],
+    "declarationDir": "./types",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "strict": true,
+    "strictNullChecks": true,
+    "rootDir": "src",
+    "outDir": "esm"
+  }
+}

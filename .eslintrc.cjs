@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["airbnb-typescript", 'plugin:jest/recommended', "prettier"],
+  extends: ["airbnb-typescript", "plugin:jest/recommended", "prettier"],
   parserOptions: {
     project: "./tsconfig.eslint.json",
   },
@@ -28,5 +28,5 @@ module.exports = {
       },
     ],
   },
-  plugins: ["@typescript-eslint", 'jest'],
+  plugins: ["@typescript-eslint", "jest"],
 };

@@ -21,7 +21,7 @@ export declare type Media = (<T extends number>(minWidth: T) => `@media screen a
 export declare const createMedia: () => {
     media: Media;
     createMediaSubquery: {
-        (breakpoint: BreakpointKeys, type?: "max" | "min" | undefined): any;
-        (width: number, type?: "max" | "min" | undefined): any;
+        (breakpoint: BreakpointKeys, type?: "min" | "max" | undefined): any;
+        (width: number, type?: "min" | "max" | undefined): any;
     };
 };

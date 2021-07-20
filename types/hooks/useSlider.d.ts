@@ -1,5 +1,5 @@
 import React from "react";
-export declare function useSlider({ orientation, direction, min, max, initial, }: {
+export declare function useSlider({ orientation, min, max, initial, }: {
     min: number;
     max: number;
     initial: number;

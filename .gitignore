@@ -6,3 +6,4 @@
 !/.yarn/cache
 
 esm types
+node_modules

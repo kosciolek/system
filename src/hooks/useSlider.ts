@@ -1,8 +1,4 @@
-import React, {
-  useCallback,
-  useLayoutEffect,
-  useState,
-} from "react";
+import React, { useCallback, useLayoutEffect, useState } from "react";
 import { useDrag } from "react-use-gesture";
 import { clamp } from "../utils/js.js";
 import { useResizeObserver } from "./useResizeObserver.js";
@@ -43,7 +39,7 @@ export function useSlider({
       const globalRootOffset =
         orientation === "horizontal" ? rootRect.x : rootRect.y;
 
-      const {nativeEvent} = event as React.MouseEvent;
+      const { nativeEvent } = event as React.MouseEvent;
       const globalPointerOffset =
         orientation === "horizontal"
           ? nativeEvent.clientX

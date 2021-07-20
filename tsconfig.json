@@ -1,6 +1,7 @@
 {
   "exclude": ["types", "esm"],
   "compilerOptions": {
+    "noImplicitAny": false,
     "target": "ES2015",
     "lib": ["DOM", "ESNext"],
     "declarationDir": "./types",

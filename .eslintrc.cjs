@@ -27,6 +27,7 @@ module.exports = {
         devDependencies: [".storybook/**", "stories/**"],
       },
     ],
+    "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "^_" }],
   },
   plugins: ["@typescript-eslint", "jest"],
 };

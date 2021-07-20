@@ -66,6 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:17.0.2"],
+            ["react-is", "npm:17.0.2"],
             ["react-spring", "npm:9.2.4"],
             ["react-use-gesture", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:9.1.3"],
             ["styled-components", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:5.3.0"],
@@ -16773,7 +16774,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["open", [
         ["npm:7.4.2", {
-          "packageLocation": "./.yarn/cache/open-npm-7.4.2-a378c23959-07545fa768.zip/node_modules/open/",
+          "packageLocation": "./.yarn/unplugged/open-npm-7.4.2-a378c23959/node_modules/open/",
           "packageDependencies": [
             ["open", "npm:7.4.2"],
             ["is-docker", "npm:2.2.1"],
@@ -19931,7 +19932,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hoist-non-react-statics", "npm:3.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:17.0.2"],
-            ["react-is", null],
+            ["react-is", "npm:17.0.2"],
             ["shallowequal", "npm:1.1.0"],
             ["supports-color", "npm:5.5.0"]
           ],
@@ -20047,6 +20048,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:17.0.2"],
+            ["react-is", "npm:17.0.2"],
             ["react-spring", "npm:9.2.4"],
             ["react-use-gesture", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:9.1.3"],
             ["styled-components", "virtual:3c678a9268643f8d9220d8972c1c40c2eb50aa3d73a31b445cf85fa9e28a8d0c3d449f3a34385b6626dfd6fdd2320a3778d2c5562b739ad9ca4a9c71eee5bb66#npm:5.3.0"],
